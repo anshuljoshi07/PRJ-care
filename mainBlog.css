@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-custom-size {
+    @apply bg-cover;
+    background-size: 100% 100%;
+  }
+
+
+
+
+/* footer css */
+.bottom{
+  padding-top: 2rem;
+  background-color: #cdbba7;
+  margin-top: 2rem;
+}
+
+.bottomcontent{
+  
+  max-width: 70%;
+  margin: 0 auto;
+  color: rgb(107 61 47 / 80%);
+  font-weight: 520;
+}
+
+.bottom-upper{
+  width: 100%;
+}
+
+.bottomcontent h2{
+  padding-bottom: 1.5rem;
+}
+
+.bottomcontent p{
+  padding-bottom: 1rem;
+}
+
+.bottom-lower{
+  display: flex;
+  width: 100%;
+  padding-top: 3rem;
+  
+}
+
+.inputbox{
+  width: 100%;
+  background-color: transparent;
+  border: 1.7px solid rgb(107 61 47 / 80%);
+}
+
+
+.left-bottom{
+  min-width: 50%;
+}
+.right-bottom{
+  min-width: 50%;
+}
+
+#message{
+  height: 10rem;
+}
+
+.label{
+  
+  line-height: 0.5rem;
+}
+
+
+/* #send:hover {
+  
+  
+     color: rgb(183,205,213);
+  border: 2px solid rgb(183, 188, 86); 
+  background-color: white;
+
+*/
+
+
+
+

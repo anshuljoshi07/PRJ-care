@@ -1,0 +1,155 @@
+/* Plantation css (Navnita) */
+/*Adding header style  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-custom-size {
+  @apply bg-cover;
+  background-size: 100% 100%;
+}
+
+
+
+.logo_name, .con2{
+ text-shadow: 2px 2px 4px rgb(54,77,126);  
+} 
+header{
+    height: 650px;
+    width: 100%;
+    background-color: #F4DFD0;
+
+}
+.heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display:block;
+}
+.banner{
+    height: 600px;
+    background-image: url("republicDay.png");
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+
+}
+.msg{
+    color:rgb(96, 92, 92);
+    height: 15px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+.intro{
+    text-align: center;
+    background-color: #FEFCF3;
+    color: rgb(50, 48, 48);
+    font-size: 1.25rem;
+}
+.intro p{
+    padding: 15px 80px 5px 80px;
+}
+
+.start{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    background-color: #FDF6F0;
+}
+.start1{
+    background-image: url("images1/flag.jpg");
+    background-size: cover;
+    height: 85%;
+    width: 90%;
+}
+.start2{
+    text-align: center;
+    color:black;
+    border-radius: 35%;
+    margin: 15px;
+    padding: 1px 2px 1px 2px;
+    background-color: #F8E2CF;
+    font-size: large;
+    width: fit-content;
+}
+.start3{
+    background-image: url("images1/vandeMatram.jpg");
+    background-size: cover;
+    height: 90%;
+    width: 90%;
+}
+
+
+.bottom{
+    background-color:#F4DFD0; 
+    height: max-content;
+}
+.soc{
+    background-image: url(header-1.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+}
+.link{
+    display:inline;
+    background-color: #F4DFD0 ;
+    text-align: center;
+}
+/* footer css */
+.bottom{
+  padding-top: 2rem;
+  background-color: #cdbba7;
+  margin-top: 2rem;
+}
+
+.bottomcontent{
+  
+  max-width: 70%;
+  margin: 0 auto;
+  color: rgb(107 61 47 / 80%);
+  font-weight: 520;
+}
+
+.bottom-upper{
+  width: 100%;
+}
+
+.bottomcontent h2{
+  padding-bottom: 1.5rem;
+}
+
+.bottomcontent p{
+  padding-bottom: 1rem;
+}
+
+.bottom-lower{
+  display: flex;
+  width: 100%;
+  padding-top: 3rem;
+  
+}
+
+.inputbox{
+  width: 100%;
+  background-color: transparent;
+  border: 1.7px solid rgb(107 61 47 / 80%);
+}
+
+
+.left-bottom{
+  min-width: 50%;
+}
+.right-bottom{
+  min-width: 50%;
+}
+
+#message{
+  height: 10rem;
+}
+
+.label{
+  
+  line-height: 0.5rem;
+}

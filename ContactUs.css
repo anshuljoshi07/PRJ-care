@@ -1,0 +1,253 @@
+* {
+  
+  border: none;
+  box-sizing: border-box;
+  /* background-color: #4ecdc4; */
+}
+
+#heading{
+  padding-left: 50px;
+}
+
+h1 { 
+  display: inline;
+  color: green;
+  border-bottom: 3px green solid;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+
+
+h3 {
+  margin: 20px 50px; 
+}
+
+/* #links {
+  font-size: 30px;
+}
+ */
+#container {
+  display: flex;
+  margin-top: 20px; 
+  padding-left: 50px; 
+}
+
+
+
+.sath {
+  display: inline-block;
+}
+
+/* input[type="text"], input[type="tel"], input[type="email"], textarea {
+  background-color: #f2f2f2;
+} */
+
+.one {
+  height: 40px;
+  width: 700px;
+  background-color: #f2f2f2;
+}
+
+#phone {
+  margin-right: 50px;
+}
+
+.two {
+  width: 323px;
+  height: 40px;
+  background-color: #f2f2f2;
+}
+
+#message {
+  resize: none;
+  height: 350px;
+}
+
+#submit {
+  width: 100px;
+  height: 25px;
+  color: white;
+  background-color: orange;
+  font-weight: bold;
+}
+
+/* label {
+  font-weight: bold;
+  color: rgb(81, 81, 175);
+}
+ */
+#links{
+  padding-left: 50px;
+}
+#contact{
+  padding-top: 1px;
+  background-color: #ad6d05;
+  color: white;
+}
+
+#final{
+  padding-left: 50px;
+  /* background-color: #f2f2f2; */
+  background-color: #ad6d05;
+  color: white;
+}
+#anchor:hover{
+  color: orange;
+/*   border: 1px, solid, green; */
+}
+/* input[type = "text"]:hover{
+  border: 2px solid green;
+}
+input[type = "email"]:hover{
+  border: 2px solid green;
+}
+input[type = "submit"]:hover{
+  border: 2px solid green;
+}
+input[type = "tel"]:hover{
+  border: 2px solid green;
+}
+textarea:hover{
+  border: 2px solid green;
+} */
+
+#submit:hover{
+  border: 2px solid green;
+}
+.one:hover, .two:hover{
+  border: 2px solid green;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  h1 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+    margin: 10px 20px;
+  }
+  #container {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .one, .two {
+    width: 100%;
+  }
+  #message {
+    height: 200px;
+  }
+  #submit {
+    width: 50%;
+  }
+  #links {
+    font-size: 20px;
+  }
+  #final {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  
+  h1 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 20px;
+    margin: 15px 30px;
+  }
+  #container {
+    flex-direction: column;
+    padding-left: 30px;
+  }
+  .one, .two {
+    width: 80%;
+  }
+  
+  #submit {
+    width: 60%;
+  }
+  #links {
+    font-size: 24px;
+  }
+  #final {
+    padding-left: 30px;
+  }
+} 
+/* footer css */
+.bottom{
+  padding-top: 2rem;
+  background-color: #cdbba7;
+  margin-top: 2rem;
+}
+
+.bottomcontent{
+  
+  max-width: 70%;
+  margin: 0 auto;
+  color: rgb(107 61 47 / 80%);
+  font-weight: 520;
+}
+
+.bottom-upper{
+  width: 100%;
+}
+
+.bottomcontent h2{
+  padding-bottom: 1.5rem;
+}
+
+.bottomcontent p{
+  padding-bottom: 1rem;
+}
+
+.bottom-lower{
+  display: flex;
+  width: 100%;
+  padding-top: 3rem;
+  
+}
+
+.inputbox{
+  width: 100%;
+  background-color: transparent;
+  border: 1.7px solid rgb(107 61 47 / 80%);
+}
+
+
+.left-bottom{
+  min-width: 50%;
+}
+.right-bottom{
+  min-width: 50%;
+}
+
+#message{
+  height: 10rem;
+}
+
+.label{
+  
+  line-height: 0.5rem;
+}
+
+
+/*Adding header style  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-custom-size {
+  @apply bg-cover;
+  background-size: 100% 100%;
+}
+
+
+
+
+

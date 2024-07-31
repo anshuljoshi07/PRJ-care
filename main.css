@@ -1,0 +1,340 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*Aman's Code  */
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 500%;
+}
+.slide {
+    flex-shrink: 0;
+    width: 20%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.btn {
+    transition: transform 0.2s ease;
+}
+.btn:active {
+    transform: scale(1.2);
+}
+.bg-customsize {
+    @apply bg-cover;
+    background-size: 100% 100%;
+  }
+/*Shivam Workspace  */
+
+*{ 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+.wrapper{
+    perspective: 10px;
+    overflow-x: hidden;
+    background-color: #fdefef;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    height: 100%;
+}
+hr{
+    position: relative;
+    left:27.5%;
+    width: 45%;
+}
+.bg{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 3.25rem;
+}
+/* .box{
+    border: 5px solid white;
+    margin-top:20px ;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;    
+} */
+.bg1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(ngo1.jpg);
+    padding-top: 2rem;
+    width:100%;
+    margin-top:5rem;
+}
+.bg2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(ngo2.jpg);
+    background-size: cover;
+    width:100%;
+
+}
+/* .secHeading{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+} */
+.FirstHeading{
+    font-weight: bolder;
+    font-size: 40px;
+    background-color: transparent;
+    color: white;
+    padding-top: 150px;
+}
+.SecondHeading{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+/*     margin-top: 8rem; */
+    font-weight: normal;
+} 
+.text{
+    color: white;
+    font-size: 1.25rem;
+    font-style:normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button{
+    width: 150px;
+    height:50px;
+    border-radius: 25px;
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.button:hover{
+    
+    background-color: #8a73486e;
+    transition-duration: 0.2s;
+ 
+}
+/* .coloum {
+    float: left;
+    width: 40% ;
+    padding:5px;
+   
+    
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+  }
+  .img1{
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-right: 10px;
+    
+  }
+  .img2{
+    border: 1px solid black;
+
+    margin-left: 200px;
+    margin-right: 20px;
+  } */
+  .col{
+    margin-left: 6rem;
+/*     margin-right: 8rem; */
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+   }
+  .text1{
+    text-align: center;
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    
+  }
+  .img{
+    width: 2rem;
+    height: 2rem;
+    content: "";
+    clear: both;
+    display: table;
+    float: left;
+    width: 55%;
+/*     padding:5px; */
+    margin:0.5rem;
+    text-align:right;
+    
+    
+  }
+/*   #button:hover{
+    background-color:blue;
+  } */
+
+/* ARYAN CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.text_impact{
+    color: rgb(78, 76, 76);
+/*     font-family: Arial, Helvetica, sans-serif; */
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.gridview{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    column-gap: 1.9rem;
+    row-gap: 1rem;
+    
+    max-width: 95%;
+    margin: auto;
+    
+}
+
+.images{
+    
+    position: relative;
+    height: 14rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    overflow: hidden;
+    border-radius: 0.2rem;
+    
+    
+    
+}
+
+.divimg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.imagetext {
+    position: absolute;
+    padding-bottom: 1rem;
+}
+
+.desc{
+    text-decoration: none;
+    color: azure;
+/*    font-family: Arial, Helvetica, sans-serif; */
+/*    font-weight: 500; */
+   font-size: 1.5rem;
+}
+
+.images:hover .divimg{
+    transform: scale(1.08);
+    transition-duration: 200ms;
+}
+
+.images:hover .desc{
+    font-size: 1.6rem;
+    transition-duration: 200ms;
+}
+
+/* footer css */
+.bottom{
+  padding-top: 2rem;
+  background-color: #cdbba7;
+  margin-top: 2rem;
+}
+
+.bottomcontent{
+  
+  max-width: 70%;
+  margin: 0 auto;
+  color: rgb(107 61 47 / 80%);
+  font-weight: 520;
+}
+
+.bottom-upper{
+  width: 100%;
+}
+
+.bottomcontent h2{
+  padding-bottom: 1.5rem;
+}
+
+.bottomcontent p{
+  padding-bottom: 1rem;
+}
+
+.bottom-lower{
+  display: flex;
+  width: 100%;
+  padding-top: 3rem;
+  
+}
+
+.inputbox{
+  width: 100%;
+  background-color: transparent;
+  border: 1.7px solid rgb(107 61 47 / 80%);
+}
+
+
+.left-bottom{
+  min-width: 50%;
+}
+.right-bottom{
+  min-width: 50%;
+}
+
+#message{
+  height: 10rem;
+}
+
+.label{
+  
+  line-height: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
